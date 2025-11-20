@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = master
+	templatedir = /home/pml/.config/git/templates
+[alias]
+	aa = add --all
+[include]
+	path = ~/.config/git/config.local
