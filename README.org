@@ -1,4 +1,4 @@
-* My home configurations
+* Home configuration
 
 ** Quickstart
 

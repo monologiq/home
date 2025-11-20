@@ -1,5 +1,5 @@
 [init]
-	defaultBranch = master
+	defaultBranch = main
 	templatedir = /home/pml/.config/git/templates
 [alias]
 	aa = add --all
