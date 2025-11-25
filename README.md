@@ -1,10 +1,10 @@
-* Home configuration
+# Home configuration
 
-** Quickstart
+## Quickstart
 
-#+BEGIN_SRC bash
+```bash
   git clone git@github.com:monologiq/home.git
   cd home
   stow -v --restow .
   cd $HOME && exec $SHELL -l
-#+END_SRC
+```
