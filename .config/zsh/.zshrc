@@ -13,3 +13,7 @@ setopt HIST_VERIFY
 
 autoload -Uz compinit
 compinit
+
+alias v="nvim"
+alias vi="nvim"
+alias vim="nvim"

@@ -1,3 +1,6 @@
+export EDITOR="nvim"
+export PAGER="less"
+
 export PATH="$HOME/.local/bin:$PATH"
 
 export XDG_CACHE_HOME=$HOME/.cache
