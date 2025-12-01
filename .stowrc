@@ -1,7 +1,0 @@
---target=$HOME
---no-folding
---restow
---ignore=.stowrc
---ignore=packages.txt
---ignore=LICENSE
---ignore=README.org
