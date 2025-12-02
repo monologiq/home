@@ -17,8 +17,8 @@
         default = pkgs.buildEnv {
           name = "monologiq-home";
           paths = with pkgs; [
-            stow
             direnv
+            stow
           ];
         };
       });
@@ -27,6 +27,7 @@
         default = pkgs.mkShell {
           packages = with pkgs; [
             curl
+            nixd
             nixpkgs-fmt
             stow
           ];
