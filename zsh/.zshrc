@@ -11,6 +11,10 @@ setopt HIST_VERIFY
 setopt HIST_EXPIRE_DUPS_FIRST
 setopt HIST_VERIFY
 
+if [ -d "/nix/var/nix/profiles/default/share/zsh/site-functions" ]; then
+    fpath+="/nix/var/nix/profiles/default/share/zsh/site-functions"
+fi
+
 autoload -Uz compinit
 compinit
 
