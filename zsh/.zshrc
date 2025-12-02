@@ -21,3 +21,7 @@ compinit
 alias v="nvim"
 alias vi="nvim"
 alias vim="nvim"
+
+# Third-party
+
+eval "$(direnv hook zsh)"
