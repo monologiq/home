@@ -18,10 +18,6 @@ fi
 autoload -Uz compinit
 compinit
 
-alias v="nvim"
-alias vi="nvim"
-alias vim="nvim"
-
-# Third-party
-
-eval "$(direnv hook zsh)"
+alias v="vim"
+alias vi="vim"
+alias vim="vim"
