@@ -3,5 +3,6 @@
 	templatedir = /home/pml/.config/git/templates
 [alias]
 	aa = add --all
+	can = commit --amend --no-edit
 [include]
 	path = ~/.config/git/config.local
