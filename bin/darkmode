@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+set -e
+
+GTK_THEME="Adwaita"
+COLOR_SCHEME="prefer-"
+
+case "$1" in
+	dark)
+		GTK_THEME+="-dark"
+		COLOR_SCHEME+="dark"
+		;;
+	light)
+		COLOR_SCHEME+="light"
+		;;
+	*)
+		echo "Please, use --light or --dark"
+		exit 1
+		;;
+esac
+gsettings set org.gnome.desktop.interface gtk-theme "$GTK_THEME"
+gsettings set org.gnome.desktop.interface color-scheme "$COLOR_SCHEME"
