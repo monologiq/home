@@ -21,3 +21,5 @@ compinit
 alias v="vim"
 alias vi="vim"
 alias vim="vim"
+
+export GOPATH=$XDG_CACHE_HOME/go
