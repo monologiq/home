@@ -7,6 +7,7 @@ symlink() {
     stow -v --restow --no-folding --stow "$1" --target "$2"
 }
 
+symlink "alacritty" "$HOME/.config/alacritty"
 symlink "bin" "$HOME/.local/bin"
 symlink "git" "$HOME/.config/git"
 symlink "gtk-3.0" "$HOME/.config/gtk-3.0"
