@@ -1,2 +1,3 @@
 [font]
-normal = { family = "SF Mono", style = "Regular" }
+normal = { family = "Iosevka SS15", style = "Regular" }
+size = 12
