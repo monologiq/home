@@ -18,8 +18,11 @@ fi
 autoload -Uz compinit
 compinit
 
-alias v="vim"
-alias vi="vim"
-alias vim="vim"
+alias v="nvim"
+alias vi="nvim"
+alias vim="nvim"
 
 export GOPATH=$XDG_CACHE_HOME/go
+
+export OPAMROOT=$XDG_CACHE_HOME/opam
+[[ ! -r "$OPAMROOT/opam-init/init.zsh" ]] || source "$OPAMROOT/opam-init/init.zsh" > /dev/null 2> /dev/null
