@@ -9,6 +9,7 @@ symlink() {
 
 symlink "alacritty" "$HOME/.config/alacritty"
 symlink "bin" "$HOME/.local/bin"
+symlink "fonts" "$HOME/.local/share/fonts"
 symlink "git" "$HOME/.config/git"
 symlink "gtk-3.0" "$HOME/.config/gtk-3.0"
 symlink "kitty" "$HOME/.config/kitty"
